@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		600FB1281E1EA5EC00B32E1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600FB1271E1EA5EC00B32E1A /* AppDelegate.swift */; };
-		600FB12A1E1EA5EC00B32E1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600FB1291E1EA5EC00B32E1A /* ViewController.swift */; };
+		600FB12A1E1EA5EC00B32E1A /* LogIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600FB1291E1EA5EC00B32E1A /* LogIn.swift */; };
 		600FB12D1E1EA5EC00B32E1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 600FB12B1E1EA5EC00B32E1A /* Main.storyboard */; };
 		600FB12F1E1EA5EC00B32E1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 600FB12E1E1EA5EC00B32E1A /* Assets.xcassets */; };
 		600FB1321E1EA5EC00B32E1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 600FB1301E1EA5EC00B32E1A /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		600FB1241E1EA5EC00B32E1A /* HackTurabo App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HackTurabo App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		600FB1271E1EA5EC00B32E1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		600FB1291E1EA5EC00B32E1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		600FB1291E1EA5EC00B32E1A /* LogIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogIn.swift; sourceTree = "<group>"; };
 		600FB12C1E1EA5EC00B32E1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		600FB12E1E1EA5EC00B32E1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		600FB1311E1EA5EC00B32E1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				600FB1271E1EA5EC00B32E1A /* AppDelegate.swift */,
-				600FB1291E1EA5EC00B32E1A /* ViewController.swift */,
+				600FB1291E1EA5EC00B32E1A /* LogIn.swift */,
 				600FB12B1E1EA5EC00B32E1A /* Main.storyboard */,
 				600FB12E1E1EA5EC00B32E1A /* Assets.xcassets */,
 				600FB1301E1EA5EC00B32E1A /* LaunchScreen.storyboard */,
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				600FB12A1E1EA5EC00B32E1A /* ViewController.swift in Sources */,
+				600FB12A1E1EA5EC00B32E1A /* LogIn.swift in Sources */,
 				600FB1281E1EA5EC00B32E1A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +261,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 4E8NC6KPHS;
 				INFOPLIST_FILE = "HackTurabo App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -274,9 +275,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 4E8NC6KPHS;
 				INFOPLIST_FILE = "HackTurabo App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mikewazaoski.HackTurabo-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -302,6 +305,7 @@
 				600FB1381E1EA5EC00B32E1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
